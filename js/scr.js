@@ -1,3 +1,11 @@
+const url = "https://www.youtube.com/embed/oPoOC1tGrg8";
+
+
+async function closeInfo() {
+   document.getElementById("info").style.animation = "infoanim-close 0.5s ease-in-out forwards";
+   document.getElementById('frame_1').src = url;
+}
+
 /*Phone*/
 var phone = document.getElementById("phone_1"),
   iframe = document.getElementById("frame_1");
@@ -10,12 +18,8 @@ function updateView(view) {
 }
 
 /*URL*/
-const url = "https://www.youtube.com/embed/BQzqb9Fnl94";
-window.onload = function () {
-    let frame = document.getElementById('frame_1');
-    frame.src = url;
-    console.log(frame);
-}
+
+
 /*Logo yönlendirmesi*/
 function goSite() {
   window.location.href = "https://depremtr.com.tr/";

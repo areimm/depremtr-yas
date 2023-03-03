@@ -5,16 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/bosstrap.css">
-    <script src="./js/scr.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/bosstrap.css">
     <title>Document</title>
 </head>
 
 <body>
+
     <div>
         <header class="header">
-            <img onclick="goSite()" style="cursor: pointer;" src="./assets/imgs/deprem.png" width="300" height="60"
+            <img onclick="goSite()" style="cursor: pointer;" src="assets/imgs/deprem.png" width="300" height="60"
                 alt="" />
             <input class="menu-btn" type="checkbox" id="menu-btn" />
             <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
@@ -26,6 +27,25 @@
         </header>
     </div>
 
+
+    <div class="info" id="info">
+        <div class="info-card">
+            <div class="info-card-header">
+                <div class="toolbar">
+                    <h3>Geçmiş Olsun Türkiye</h3>
+                    <button onclick="closeInfo()" class="btn btn-danger">X</button>
+                </div>
+            </div>
+            <div class="info-card-body">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem tempore reprehenderit vero provident eos, impedit blanditiis veritatis quidem sit deserunt fugit dicta? Ipsam a sit fugiat sunt, eaque molestias quis.
+                </p>
+                <p>
+                    
+                </p>
+            </div>
+        </div>
+    </div>
 
     <div class="card text-center" style="top:70px">
         <div class="card-body">
@@ -40,6 +60,11 @@
         <div class="card-footer text-muted">
             <p>Depremtr ailesi olarak sizlerin yanınızda olmaktan mutluluk duyarız..</p>
         </div>
+    </div>
+
+
 </body>
+
+<script src="js/scr.js"></script>
 
 </html>
