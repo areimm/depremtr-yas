@@ -50,19 +50,27 @@ a {
 }
 
 
-
-
 /*CARD CSS  */
 * {
   background-color: #333;
 }
 
+.card-title{
+  color: #fff !important;
+  font-size: 1.789rem !important;
+}
+
 p {
   font-size: 1.2em;
   line-height: 1.5em;
-  background-color: #333;
-  color: #ffffff;
+  background-color: #f8f8f8;
+  color: #000000;
   margin-bottom: 20px;
+}
+
+.h3{
+  background-color: #333;
+  color: #fff !important;
 }
 
 .info {
